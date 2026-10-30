@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int num;
     cout<<"Plz enter Number"<<endl;
-    cin>> num;
+    cin>>num;
 
     if ( 1>num ||num>10 ) {
         cout<<"INVALID NUMBER"<<endl;
