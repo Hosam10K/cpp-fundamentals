@@ -4,7 +4,7 @@ using namespace std;
 int main () {
     int num;
     cout <<"Plz enter a number"<<endl;
-    cin >> num;
+    cin >>num;
     // validate that the number enterd by the user is not out of range
     if ( num < 1 || num > 10) {
         cout <<"Error"<<endl;
