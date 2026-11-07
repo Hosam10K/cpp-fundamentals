@@ -15,7 +15,7 @@ int main() {
     }
     for (int x = 0; x < digit_count; x++) {
         sum = sum + (number % 10);
-        number = number / 10;
+        number= number / 10;
     }
     cout<<"The sum of all digits of "<<original_number<<" is "<<sum<<endl;
 
