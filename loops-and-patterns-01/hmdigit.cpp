@@ -7,7 +7,7 @@ int main() {
     cout<<"please enter number: ";
     cin>>number;
     for (int x = 10; x < number; x = x*10){
-        if (number >= x) {
+        if (number>= x) {
             digit_count = digit_count + 1;
         }
     }
