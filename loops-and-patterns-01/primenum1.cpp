@@ -8,7 +8,7 @@ int main() {
     cin>>number;
     for (int x = number-1; x > 1; x--) {
         if (number % x == 0) {
-            prime = false;
+            prime= false;
             break;
         }
     }
