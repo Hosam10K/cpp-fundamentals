@@ -3,15 +3,15 @@ using namespace std;
 
 int main() {
     int number;
-    int digit_count = 1;
+    int digit_count = 0;
     cout<<"please enter number: ";
     cin>>number;
-    for (int x = 10; x < number; x = x*10){
-        if (number>= x) {
-            digit_count = digit_count + 1;
-        }
+    int original_number = number;
+    while ( number > 0) {
+        number = number / 10;
+        digit_count++;
     }
-    cout<<"The number "<<number<<" has "<<digit_count<<" digit(s)"<<endl;
+    cout<<"The number "<<original_number<<" has "<<digit_count<<" digit(s)"<<endl;
     
     return 0;
 }
